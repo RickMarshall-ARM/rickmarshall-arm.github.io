@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rick Marshall - IT Leader, Washington, DC</title>
+<meta name="description" content="Rick Marshall - IT Solutions & Infrastructure Leader in Washington, DC. Microsoft 365, Azure, Entra ID, Atlassian, and multi-cloud operations for mission-driven organizations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #16222a;
+    --teal: #1f4e5f;
+    --teal-bright: #2e7d8c;
+    --slate: #5b6b74;
+    --hairline: #d8e0e4;
+    --paper: #fafbfc;
+    --ok: #2f9e63;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 3rem;
+  }
+  .eyebrow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal-bright);
+    margin-bottom: 1.1rem;
+  }
+  h1 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 7vw, 3.4rem);
+    letter-spacing: -0.015em;
+    line-height: 1.08;
+    color: var(--teal);
+  }
+  .role {
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: var(--ink);
+    margin-top: 0.55rem;
+  }
+  .status {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8rem;
+    color: var(--slate);
+    margin-top: 1.4rem;
+    padding: 0.55rem 0.8rem;
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    background: #fff;
+  }
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--ok);
+    flex: none;
+    box-shadow: 0 0 0 3px rgba(47,158,99,0.15);
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--hairline);
+    margin: 2.4rem 0;
+  }
+  p + p { margin-top: 1.05rem; }
+  .stack {
+    margin-top: 2rem;
+  }
+  .stack-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 0.6rem;
+  }
+  .stack ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+  .stack li {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.78rem;
+    color: var(--teal);
+    border: 1px solid var(--hairline);
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.28rem 0.6rem;
+  }
+  .contact {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+  .btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.62rem 1.15rem;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .btn-primary {
+    background: var(--teal);
+    color: #fff;
+  }
+  .btn-primary:hover, .btn-primary:focus-visible { background: var(--teal-bright); }
+  .btn-secondary {
+    color: var(--teal);
+    border: 1.5px solid var(--teal);
+    background: transparent;
+  }
+  .btn-secondary:hover, .btn-secondary:focus-visible {
+    border-color: var(--teal-bright);
+    color: var(--teal-bright);
+  }
+  a:focus-visible {
+    outline: 2px solid var(--teal-bright);
+    outline-offset: 3px;
+  }
+  footer {
+    margin-top: 3.2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--hairline);
+    font-size: 0.8rem;
+    color: var(--slate);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .fade { animation: rise 0.6s ease both; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fade { animation: none; }
+  }
+</style>
+</head>
+<body>
+  <main class="wrap fade">
+    <p class="eyebrow">Dedication &middot; Persistence &middot; Commitment</p>
+    <h1>Rick Marshall</h1>
+    <p class="role">IT Solutions &amp; Infrastructure Leader - Washington, DC</p>
+
+    <div class="status" role="note" aria-label="Status">
+      <span class="dot" aria-hidden="true"></span>
+      <span>status: operational &middot; supporting mission-driven organizations since 1999</span>
+    </div>
+
+    <hr>
+
+    <p>I lead technology for mission-driven organizations - modernizing infrastructure, strengthening security, and building service operations people can rely on. That covers the systems themselves and everything behind them: budgets, vendors, governance, and the teams doing the work.</p>
+
+    <p>I&rsquo;ve led enterprise cloud migrations, zero-trust identity rollouts, disaster recovery programs, and cost initiatives that saved past employers $300K a year in one case and $2.5M over five years in another. Currently with the American Hospital Association in Washington, DC.</p>
+
+    <div class="stack">
+      <p class="stack-label">Working stack</p>
+      <ul>
+        <li>Microsoft 365</li>
+        <li>Azure / Entra ID</li>
+        <li>Intune</li>
+        <li>Atlassian Cloud</li>
+        <li>Jira Service Management</li>
+        <li>Google Workspace</li>
+        <li>Salesforce</li>
+        <li>AWS</li>
+        <li>ITIL / ITSM</li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <a class="btn btn-primary" href="mailto:rick.marshall@allrichmarks.com">Email me</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/allrichmarks" rel="me">LinkedIn</a>
+    </div>
+
+    <footer>
+      <span>&copy; 2026 Rick Marshall &middot; allrichmarks.com</span>
+      <span>Washington, DC</span>
+    </footer>
+  </main>
+</body>
+</html>
